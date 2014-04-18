@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEFB325B-2894-3861-D7B4-CC570F982E64" name="BC_amendment">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>F1510083-8D48-9FCE-CE9E-C4F7B03AF8E3</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<containerWithKeyObject>59E60119-4068-29BC-6965-D61987C5BEBA</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>A4A82991-525C-ACF1-B100-3A31605E5F4A</localFKIndex>
+<keyObject>5A7810FD-38F8-67D5-FEF8-2D8CD6EC6029</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

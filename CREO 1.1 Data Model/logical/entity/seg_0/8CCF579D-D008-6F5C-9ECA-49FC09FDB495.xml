@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CCF579D-D008-6F5C-9ECA-49FC09FDB495" name="CREO_property">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-02-01 17:26:04 UTC</createdTime>
+<generatorID>209B9C79-0D13-C297-9749-9DEDA2C54ED4</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="property_id" id="FEC32229-C6B2-338B-5D0B-FADBE067A382">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-02-01 17:26:04 UTC</createdTime>
+<generatorID>B925850B-821F-D32A-73F5-3570A21B8D55</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="building" id="1F6DD6D9-C1CF-9845-86E1-F40BD4557F23">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-03-26 19:54:09 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="space" id="8B598507-E035-D4E8-0FA2-6568202E7DED">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-02-01 17:26:04 UTC</createdTime>
+<generatorID>FCF16714-2B3B-9EFE-D47D-CD3B1B883E96</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="square_feet" id="D09FD49B-C16F-ECBB-89AE-FBEAE78B4884">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-03-26 19:03:45 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="acreage" id="12CE44DE-5CF1-BEC8-05B0-C4673AF86D95">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-04-08 16:46:24 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="price_per_sf" id="C70ACB81-16C5-C7C6-1BE1-D0C8A5E46514">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-04-08 16:53:53 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+</Attribute>
+<Attribute name="annual rent" id="C1261579-A612-E2E1-0085-7A669507BE99">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-04-08 16:54:15 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF645D0A-259B-C36A-913C-542759F0A18F" name="CREO_product_id_pk">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-02-01 17:26:04 UTC</createdTime>
+<generatorID>D2902D4A-56E0-0F3A-995E-C19AB47FFCE1</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEC32229-C6B2-338B-5D0B-FADBE067A382</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

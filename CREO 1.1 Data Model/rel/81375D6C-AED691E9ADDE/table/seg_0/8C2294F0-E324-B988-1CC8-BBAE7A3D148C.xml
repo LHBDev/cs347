@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C2294F0-E324-B988-1CC8-BBAE7A3D148C" name="CREO_communication">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>7D38D187-C3DD-DDC4-EE19-96E5F689FDF9</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="communication_id" id="7590166D-447A-77F5-E10B-3718A532250A">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>30C7426E-E869-FEA9-26A4-CD39466F7B06</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="7410E5ED-DACD-2562-1B9C-F7052DD8BD7F">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>12EB6913-B27A-23D1-BBC0-7BEBA198C339</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="01A88F59-E1C4-CE0C-2DF1-71FABEF74CDC">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>DBD439A4-0AC0-9BC7-784C-F7FB414E9B71</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREO_contact_contact_id" id="E6B5EFF4-95A7-DF89-AB10-822B2D72B400">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 23:56:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>7D2B1E2C-24B3-0D0C-FAF0-7E6267BC9D64</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35839D74-7E02-E3B0-DA45-DAD37401C7CB" referredColumn="7D2B1E2C-24B3-0D0C-FAF0-7E6267BC9D64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549202BB-8C71-21FB-720A-9D7750785DF5" name="CREO_communication_PK">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>403ACAF1-F519-171D-852C-497A3D275406</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7590166D-447A-77F5-E10B-3718A532250A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A386A90-4B37-5E5E-1D5A-6B42E720BA60" name="CREO_Relation_10">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>92A2E1E9-4B60-826B-006E-0DF4356960EF</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B5EFF4-95A7-DF89-AB10-822B2D72B400"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

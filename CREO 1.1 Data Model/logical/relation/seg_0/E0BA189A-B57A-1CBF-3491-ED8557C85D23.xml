@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CREO_item_cost" directorySegmentName="seg_0" id="E0BA189A-B57A-1CBF-3491-ED8557C85D23">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-03-28 01:28:19 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<sourcePk>5FC07838-9A64-3D71-B209-499C2546AE93</sourcePk>
+<targetPk>70D2C347-237F-CF32-6550-EEA2DC2D3756</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C3C2A92C-9CF0-FFA5-3585-83CC3C04D0E3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CD141027-DEA0-C726-D52F-B6502B143350</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

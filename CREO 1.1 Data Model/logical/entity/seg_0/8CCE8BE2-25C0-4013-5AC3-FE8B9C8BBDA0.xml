@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CCE8BE2-25C0-4013-5AC3-FE8B9C8BBDA0" name="BC_vendor">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<generatorID>EF60F5C1-9160-5DB9-027D-88C767D1034E</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vendor_id" id="306C6938-1A14-95CE-85A1-D639366C5BD8">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>531974A0-C21A-EB7B-F40A-912EF9B9A29A</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="v_address" id="7973BABA-9F1A-7520-907B-3A065E08C4F3">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>04F70F43-1241-D511-E740-D0EDA8B18154</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="v_city" id="58834FC7-DE8A-AA38-BB46-88FB9E99BA20">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>95C2992D-810E-AF00-A4FB-9290BFF76A83</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="v_state" id="CF0D0A9B-E86A-249D-6D8E-D3538D229238">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>6E8F79DE-9790-7F9B-46BA-988764175AA4</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="v_zip" id="0C893239-BD2B-F2BB-F3E3-CCEB16045316">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7E9633D7-FB95-867B-C353-D060409B1AC9</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="v_country" id="3FB346AF-183E-95A2-A9C5-DC97FBE865F6">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>22EF149A-EEE6-3CBF-0633-1D7C9D5BD200</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state_id" id="655A1A65-F009-D3D3-3575-9460FFFCE17E">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 22:36:15 UTC</createdTime>
+<generatorID>C5CF770C-5318-059F-6491-0A9FEF65DBAB</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<referedAttribute>3239DD1B-B7F8-070F-3958-78EA1A56E514</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17051787-072B-4DDF-9EDE-F4B9B1B1AB3F" name="BC vendor PK">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:33:14 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>306C6938-1A14-95CE-85A1-D639366C5BD8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

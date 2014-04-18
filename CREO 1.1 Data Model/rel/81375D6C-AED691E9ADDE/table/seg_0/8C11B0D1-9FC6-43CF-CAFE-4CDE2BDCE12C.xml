@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C11B0D1-9FC6-43CF-CAFE-4CDE2BDCE12C" name="BC_service_type">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 19:43:26 UTC</createdTime>
+<generatorID>27EC66EB-9F62-3243-F8A3-039B0038E9CF</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="type_id" id="C0968189-71F0-9B3A-818F-1630CEFD1EB4">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 19:43:26 UTC</createdTime>
+<generatorID>E795E85F-711E-9527-BA16-723B3F0DEF5C</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="36F7C385-8C46-8C8E-8B53-ACA5D9172F6B">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 19:43:26 UTC</createdTime>
+<generatorID>9BB80BA1-B89F-0348-411C-1B74F94C0E86</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E48E5AC-08FB-B640-EEC3-60B91A34827B" name="BC_service_type_PK">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 19:43:26 UTC</createdTime>
+<generatorID>92722FD8-C46F-8542-A081-13FB012C7D88</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0968189-71F0-9B3A-818F-1630CEFD1EB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

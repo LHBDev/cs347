@@ -1,0 +1,519 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92CDA233-E9A3-6F41-5A08-78B400F5BAE8" name="BC_contract">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<generatorID>0662AF4F-D25D-16FC-59E2-8B0590584AEC</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contract_id" id="3F4DDA78-96C8-D273-EAA7-02F18A334503">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C9A98FE7-DCA6-EA04-2D44-383DC2CD1E2A</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="received_date" id="37942F8D-D9E6-43E4-61BD-6FC10515EB2E">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>B0573801-10BF-0B96-59F7-BEC7BB92BEA6</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="initials" id="84D796B4-81BC-ADAB-602F-15F3A756EA9D">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>CD4FD12C-0BD2-791A-ABAD-FC0D33E27BFB</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="purpose" id="6E11A897-B5BF-B3EB-659D-6ABA3AB73B91">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8205707A-3C5A-7F67-058B-E2B5AB97C1C4</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="notes" id="8A9EDD80-DE00-D355-57C0-B834C65B3053">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>2A78E1B1-6549-A557-7713-24D0F42A1166</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="beginning_date" id="9BDFBC2A-AAC3-A4B1-E3C0-E016758FD523">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0DEE7AF2-AD43-86F7-78EB-CE6449AF3E0B</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="ending_date" id="412DBE80-F087-34B9-562B-5CE6E139A751">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>9EFA84F6-540B-FD85-B135-38E3FDBA50DD</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="remaining_renewal" id="62C702A1-2CD3-057F-0420-9968732286D3">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>1E1119DF-AB91-5083-FBAD-391512BF8691</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="remaining_lengths" id="D5E83355-2C0C-7DF0-F4D1-75BAD8C4AA11">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F5A8BDC7-EC9F-5A7E-A438-1B0910CEFA81</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="foreign_contract" id="93ACF34D-DA7C-5309-C986-D3F1EF80816F">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>37D0A127-FCAD-48C0-518D-79E811995113</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+</Attribute>
+<Attribute name="facility_use_reports" id="C07A4C82-EB2D-776B-2D69-2E1508735586">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>94C95C18-544D-323E-39E8-5E4758E789A4</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="service_type" id="8EB1636A-D79A-5E42-6F94-ED8FA9BEAFFF">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>18AA0B28-E008-E00E-A88F-656A3697BA6A</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="account_type" id="907CF16F-9415-6932-DA3B-ED70C753D548">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>2B07594E-8C60-D5E9-A4ED-DF4CCEF56D98</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="contract_amount" id="BF5DF498-4069-60D8-DA2E-A2E801750122">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>A5557FAF-59B6-6FA9-B675-33E22D204062</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="date_returned" id="D84F5814-BE8E-CAD4-DEF1-A9B73AA41614">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4732A267-CD19-8F4E-70F4-77884C16B793</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="last_contact_date" id="0551E369-2CFF-D704-3935-60E79A2ED8BC">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D0C01223-2044-B777-68C1-CB5F9A0BF95B</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="B7646DC1-1EA9-B4DF-5BC9-AB6C662D3E40">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>F01EB8C8-CCE0-4556-096F-7CADDE9B9D7F</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="signed_by" id="964B2EE9-6B1C-48C7-78EA-BDE07CA40648">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>348F863C-26F8-4708-000E-4C7CA0BA57C6</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="reviewed_by" id="1729F793-138C-5DC5-7C42-490BFCC5744C">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>9318EAA4-D75A-E311-957B-B76BEE4B97F7</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="signed_date" id="18DB9683-8559-0F24-F6EE-67AC45502835">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>5842C165-1A99-51BB-C87C-9CF5F0424298</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="OGC" id="62F19659-6EB9-D091-8B6D-20699FE4D181">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>757EB7E1-9788-FBCA-73C7-E6AC1D2B6845</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="EVC" id="4D91DB64-8787-437C-81EA-CA4BAAF6AC13">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4AB5DA91-E262-49A4-DF34-4C8725C63D5B</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="BOR" id="11A4EFFF-D4D8-98B9-53FD-E530348F3729">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>04255808-C84E-75E2-6272-0312F3051AFD</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="docket" id="CF9827E7-E18B-97E0-131A-4D3CB1D15968">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>4E8ED07D-3426-C6FC-08F8-76D7F17A4CCA</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="docket_date" id="0BF0400A-A72B-00A1-E109-0FA637CE7A11">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>C7C3CEFE-E03E-B58A-7C39-528C4A86D7FD</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="system_notes" id="45E9453D-9777-0A93-0C9E-E0D7E1E7FF63">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8EDB1913-0417-BAD9-27CC-ACAA70430F70</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="amendment_version" id="F9DA5566-86E6-3F0E-9E58-AF9E4B3CBDF6">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>38280E24-F24B-2B5D-EFF9-9FE8CB906F20</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="amendment_total" id="F03AABC8-7938-C219-B9D6-A613CC6B9003">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>65BDDAC4-B741-1FFF-CC84-3FBE978DCC2C</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="vendor_id" id="1687FAB6-E1D1-0FB6-EA46-55CE26E7135D">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>EF63E19B-CA5C-AF0C-75BE-07BBCF860901</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id" id="846EC0FB-7455-5525-066D-D9B4E340DA8A">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>0402645C-B7D0-FE21-92CB-889714DBC18F</importedID>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="contract_id1" id="D8FB7883-D02E-88D3-478B-E93A77DC8051">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:37:14 UTC</createdTime>
+<generatorID>F1510083-8D48-9FCE-CE9E-C4F7B03AF8E3</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3F4DDA78-96C8-D273-EAA7-02F18A334503</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="DB19132E-FAB6-9D20-E140-E6ACBD91A1F1">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:37:47 UTC</createdTime>
+<generatorID>FBEDE5A9-8E7F-1B64-D2AC-383AF51F0229</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<referedAttribute>3A3EEECC-9E88-EEE0-0AC4-47B30E78F78A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type_id" id="A7039920-5440-20BE-947C-D0B3EB651EEC">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 19:43:07 UTC</createdTime>
+<generatorID>9921A2C7-0233-596B-3364-1AB635741D1F</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<referedAttribute>E795E85F-711E-9527-BA16-723B3F0DEF5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="status_id" id="15996C4B-7DB0-7F10-9CBC-97F92350263E">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-18 22:22:48 UTC</createdTime>
+<generatorID>36E62F3B-DC85-C974-F680-36A134F465B2</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<referedAttribute>ED9004FE-6208-D34A-FA81-F749B073B3BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75D32A55-CCD3-A89F-C335-C574421A60FC" name="BC contract PK">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-15 19:29:00 UTC</createdTime>
+<generatorID>F4E6CDFE-4465-CC32-EF97-63A852A2214D</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F4DDA78-96C8-D273-EAA7-02F18A334503</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

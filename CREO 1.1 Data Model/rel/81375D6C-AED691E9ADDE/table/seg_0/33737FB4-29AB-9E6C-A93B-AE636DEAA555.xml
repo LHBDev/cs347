@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33737FB4-29AB-9E6C-A93B-AE636DEAA555" name="Relation_30">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BC_contract_contract_id" id="FFD827B9-B23B-D05E-B5B0-80B0887E34E6">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>1FFDEA0A-7DD7-A2C3-A43E-F82C63072C34</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18273AC3-3A7F-EBC0-BA5E-29E2437A5BBD" referredColumn="1FFDEA0A-7DD7-A2C3-A43E-F82C63072C34"/>
+</associations>
+</Column>
+<Column name="BC_vendor_vendor_id" id="DB209AE6-D51F-DA55-D888-C471F2DC7976">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>C6DF8423-E599-DC8C-740C-F0258E6C6F86</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB4B7E5E-1192-C3E5-AF68-37673B2B004D" referredColumn="C6DF8423-E599-DC8C-740C-F0258E6C6F86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB3C4B18-2DEB-A588-710A-44CB956E8FC0" name="Relation_30__IDX">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD827B9-B23B-D05E-B5B0-80B0887E34E6"/>
+<colUsage columnID="DB209AE6-D51F-DA55-D888-C471F2DC7976"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDCEAF62-8C2D-2B34-7688-80E636735681" name="FK_ASS_26">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>B92C7C6D-157B-AAD5-8950-74C0199B852E</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD827B9-B23B-D05E-B5B0-80B0887E34E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D250B59E-7803-84FD-AEFC-19E08B9220D3" name="FK_ASS_27">
+<createdBy>teg282</createdBy>
+<createdTime>2014-04-16 18:09:45 UTC</createdTime>
+<generatorID>B92C7C6D-157B-AAD5-8950-74C0199B852E</generatorID>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB209AE6-D51F-DA55-D888-C471F2DC7976"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

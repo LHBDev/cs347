@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CREO_Relation_50" directorySegmentName="seg_0" id="226FB709-8DEF-3FC0-E769-C91C6D078702">
+<createdBy>pcannata</createdBy>
+<createdTime>2013-04-11 14:16:21 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<sourcePk>418B677C-BD7E-359D-3346-6149AC0123B2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72EDC564-3D98-C515-B63B-4F4C611E7C5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>968FEE5E-973A-4573-1F2E-3A8679F3AB5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
