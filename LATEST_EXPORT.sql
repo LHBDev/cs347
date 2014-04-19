@@ -26,7 +26,7 @@ prompt APPLICATION 12160 - business_contracts
 -- Application Export:
 --   Application:     12160
 --   Name:            business_contracts
---   Date and Time:   23:21 Friday April 18, 2014
+--   Date and Time:   03:40 Saturday April 19, 2014
 --   Exported By:     GREGSTONT@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -107,7 +107,7 @@ wwv_flow_api.create_flow(
 ,p_browser_frame=>'D'
 ,p_csv_encoding=>'Y'
 ,p_last_updated_by=>'GREGSTONT@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20140418231242'
+,p_last_upd_yyyymmddhh24miss=>'20140419033921'
 ,p_ui_type_name => null
 );
 end;
@@ -326,7 +326,7 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'N'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'GREGSTONT@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20140418210540'
+,p_last_upd_yyyymmddhh24miss=>'20140419032337'
 );
 wwv_flow_api.create_page_plug(
  p_id=>350505215174139750+wwv_flow_api.g_id_offset
@@ -343,7 +343,7 @@ wwv_flow_api.create_page_plug(
 wwv_flow_api.create_calendar(
  p_id=>362414239153680830+wwv_flow_api.g_id_offset
 ,p_plug_name=>'Calendar'
-,p_plug_source=>'select contract_id, ''Expire: '' || contract_id as expire, ending_date from BC_contract'
+,p_plug_source=>'select contract_id, contract_id1, ''Expire: '' || contract_id as expire, ending_date from BC_contract'
 ,p_plug_source_type=>'NATIVE_CALENDAR'
 ,p_plug_template=>350494547112139731+wwv_flow_api.g_id_offset
 ,p_plug_display_sequence=>20
@@ -358,7 +358,7 @@ wwv_flow_api.create_calendar(
 ,p_date_column=>'ENDING_DATE'
 ,p_display_column=>'EXPIRE'
 ,p_start_of_week=>19721105
-,p_item_link=>'f?p=&FLOW_ID.:6:&SESSION.::&DEBUG.:6:P6_CONTRACT,P6_ending_date:#PRIMARY_KEY_VALUE#,#DATE_VALUE#'
+,p_item_link=>'f?p=&FLOW_ID.:6:&SESSION.::&DEBUG.:6:P6_CONTRACT,P6_ending_date,P6_CONTRACT_ID1:#PRIMARY_KEY_VALUE#,#DATE_VALUE#,#CONTRACT_ID1#'
 ,p_start_time=>0
 ,p_end_time=>23
 ,p_time_format=>'24HOUR'
@@ -533,7 +533,7 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'N'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'GREGSTONT@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20140418221422'
+,p_last_upd_yyyymmddhh24miss=>'20140419025928'
 );
 wwv_flow_api.create_page_plug(
  p_id=>350549890201165403+wwv_flow_api.g_id_offset
@@ -755,6 +755,7 @@ wwv_flow_api.create_worksheet_column(
 ,p_column_identifier=>'J'
 ,p_column_label=>'Foreign Contract'
 ,p_column_type=>'STRING'
+,p_display_text_as=>'HIDDEN'
 ,p_tz_dependent=>'N'
 );
 wwv_flow_api.create_worksheet_column(
@@ -2100,7 +2101,7 @@ wwv_flow_api.create_page(
 ,p_page_is_public_y_n=>'N'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'GREGSTONT@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20140418225335'
+,p_last_upd_yyyymmddhh24miss=>'20140419031157'
 );
 wwv_flow_api.create_report_region(
  p_id=>350811336162255064+wwv_flow_api.g_id_offset
@@ -3234,7 +3235,7 @@ wwv_flow_api.create_report_region(
 ,p_display_sequence=>70
 ,p_include_in_reg_disp_sel_yn=>'N'
 ,p_display_point=>'BODY'
-,p_source=>'select * from BC_NOTE where contract_id = :P36_CONTRACT_ID'
+,p_source=>'select * from BC_NOTE where contract_id = :P6_CONTRACT'
 ,p_source_type=>'NATIVE_SQL_REPORT'
 ,p_ajax_enabled=>'Y'
 ,p_query_row_template=>350498619592139735+wwv_flow_api.g_id_offset
@@ -3399,7 +3400,7 @@ wwv_flow_api.create_page_button(
 ,p_button_is_hot=>'Y'
 ,p_button_image_alt=>'New Amendment'
 ,p_button_position=>'REGION_TEMPLATE_CREATE'
-,p_button_redirect_url=>'f?p=&APP_ID.:12:&SESSION.::&DEBUG.::P12_CONTRACT_ID1:&P6_CONTRACT_ID1.'
+,p_button_redirect_url=>'f?p=&APP_ID.:12:&SESSION.::&DEBUG.::P12_CONTRACT_ID1,P12_CONTRACT_ID:&P6_CONTRACT_ID1.,&P6_CONTRACT.'
 );
 wwv_flow_api.create_page_button(
  p_id=>358017515462684261+wwv_flow_api.g_id_offset
@@ -4579,7 +4580,7 @@ wwv_flow_api.create_page(
 ,p_cache_by_user_yn=>'N'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'GREGSTONT@GMAIL.COM'
-,p_last_upd_yyyymmddhh24miss=>'20140418204820'
+,p_last_upd_yyyymmddhh24miss=>'20140419031823'
 );
 wwv_flow_api.create_page_plug(
  p_id=>357223286309315043+wwv_flow_api.g_id_offset
@@ -4600,7 +4601,7 @@ wwv_flow_api.create_page_button(
 ,p_button_image_alt=>'Apply Changes'
 ,p_button_position=>'REGION_TEMPLATE_CHANGE'
 ,p_button_condition=>'P12_CONTRACT_ID'
-,p_button_condition_type=>'ITEM_IS_NOT_NULL'
+,p_button_condition_type=>'ITEM_IS_NULL'
 ,p_database_action=>'UPDATE'
 );
 wwv_flow_api.create_page_button(
@@ -4622,8 +4623,6 @@ wwv_flow_api.create_page_button(
 ,p_button_template_id=>350501692613139741+wwv_flow_api.g_id_offset
 ,p_button_image_alt=>'Create'
 ,p_button_position=>'REGION_TEMPLATE_CREATE'
-,p_button_condition=>'P12_CONTRACT_ID'
-,p_button_condition_type=>'ITEM_IS_NULL'
 ,p_database_action=>'INSERT'
 );
 wwv_flow_api.create_page_button(
@@ -4638,7 +4637,7 @@ wwv_flow_api.create_page_button(
 ,p_button_redirect_url=>'javascript:apex.confirm(htmldb_delete_message,''DELETE'');'
 ,p_button_execute_validations=>'N'
 ,p_button_condition=>'P12_CONTRACT_ID'
-,p_button_condition_type=>'ITEM_IS_NOT_NULL'
+,p_button_condition_type=>'ITEM_IS_NULL'
 ,p_database_action=>'DELETE'
 );
 wwv_flow_api.create_page_branch(
@@ -4863,16 +4862,16 @@ wwv_flow_api.create_page_item(
 ,p_prompt=>'Service Type'
 ,p_source=>'SERVICE_TYPE'
 ,p_source_type=>'DB_COLUMN'
-,p_display_as=>'NATIVE_TEXT_FIELD'
+,p_display_as=>'NATIVE_POPUP_LOV'
+,p_lov=>'select name as name1, name as name2 from bc_rec_prov'
 ,p_cSize=>32
 ,p_cMaxlength=>255
+,p_cHeight=>1
 ,p_label_alignment=>'RIGHT'
 ,p_field_template=>350501342331139740+wwv_flow_api.g_id_offset
-,p_attribute_01=>'N'
-,p_attribute_02=>'N'
-,p_attribute_03=>'N'
-,p_attribute_04=>'TEXT'
-,p_attribute_05=>'NONE'
+,p_lov_display_extra=>'YES'
+,p_attribute_01=>'NOT_ENTERABLE'
+,p_attribute_02=>'FIRST_ROWSET'
 );
 wwv_flow_api.create_page_item(
  p_id=>357231468498315051+wwv_flow_api.g_id_offset
@@ -4883,13 +4882,16 @@ wwv_flow_api.create_page_item(
 ,p_prompt=>'Account Type'
 ,p_source=>'ACCOUNT_TYPE'
 ,p_source_type=>'DB_COLUMN'
-,p_display_as=>'NATIVE_NUMBER_FIELD'
+,p_display_as=>'NATIVE_POPUP_LOV'
+,p_lov=>'select name as name1, name as name2 from bc_service_type'
 ,p_cSize=>32
 ,p_cMaxlength=>255
 ,p_cHeight=>1
 ,p_label_alignment=>'RIGHT'
 ,p_field_template=>350501342331139740+wwv_flow_api.g_id_offset
-,p_attribute_03=>'right'
+,p_lov_display_extra=>'YES'
+,p_attribute_01=>'NOT_ENTERABLE'
+,p_attribute_02=>'FIRST_ROWSET'
 );
 wwv_flow_api.create_page_item(
  p_id=>357231601099315051+wwv_flow_api.g_id_offset
@@ -5200,9 +5202,8 @@ wwv_flow_api.create_page_item(
 ,p_label_alignment=>'RIGHT'
 ,p_field_template=>350501342331139740+wwv_flow_api.g_id_offset
 ,p_lov_display_extra=>'YES'
-,p_attribute_01=>'ENTERABLE'
+,p_attribute_01=>'NOT_ENTERABLE'
 ,p_attribute_02=>'FIRST_ROWSET'
-,p_attribute_03=>'N'
 );
 wwv_flow_api.create_page_item(
  p_id=>357234820462315054+wwv_flow_api.g_id_offset
@@ -5222,9 +5223,8 @@ wwv_flow_api.create_page_item(
 ,p_label_alignment=>'RIGHT'
 ,p_field_template=>350501342331139740+wwv_flow_api.g_id_offset
 ,p_lov_display_extra=>'YES'
-,p_attribute_01=>'ENTERABLE'
+,p_attribute_01=>'NOT_ENTERABLE'
 ,p_attribute_02=>'FIRST_ROWSET'
-,p_attribute_03=>'N'
 );
 wwv_flow_api.create_page_item(
  p_id=>357235045967315055+wwv_flow_api.g_id_offset
@@ -5506,7 +5506,7 @@ wwv_flow_api.create_page_process(
 ,p_process_type=>'NATIVE_FORM_FETCH'
 ,p_process_name=>'Fetch Row from BC_CONTRACT'
 ,p_attribute_02=>'BC_CONTRACT'
-,p_attribute_03=>'P12_CONTRACT_ID1'
+,p_attribute_03=>'P12_CONTRACT_ID'
 ,p_attribute_04=>'CONTRACT_ID'
 );
 wwv_flow_api.create_page_process(
