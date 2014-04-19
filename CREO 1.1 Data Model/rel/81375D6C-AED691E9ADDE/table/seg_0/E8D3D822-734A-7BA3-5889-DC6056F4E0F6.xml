@@ -88,6 +88,17 @@
 <dataTypeSize>255</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="primary_contact" id="EE066EDD-26AC-DF0B-F13A-B49F22C2FDB2">
+<createdBy>Taylor</createdBy>
+<createdTime>2014-04-19 05:46:08 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9EFA2605-4670-6A56-B21A-251FE20445B3" name="BC_vendor_PK">

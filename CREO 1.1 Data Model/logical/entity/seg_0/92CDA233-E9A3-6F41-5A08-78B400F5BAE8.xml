@@ -499,6 +499,19 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 </Attribute>
+<Attribute name="primary_contact" id="4A3C162F-8FA4-737A-CBBF-2D2882F41C7E">
+<createdBy>Taylor</createdBy>
+<createdTime>2014-04-19 05:46:46 UTC</createdTime>
+<ownerDesignName>CREO 1.1 Data Model</ownerDesignName>
+<engineerTo>
+<item key="81375D6C-6A3D-8912-B0BA-AED691E9ADDE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="75D32A55-CCD3-A89F-C335-C574421A60FC" name="BC contract PK">
